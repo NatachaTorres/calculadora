@@ -1,0 +1,68 @@
+body{
+    font-family: arial;
+    padding: 50px;
+    padding-top: 200px;
+}
+section{
+    border-radius: 5%;
+    border: 2pt solid;
+    width: 350px;
+    height: 418px;
+    padding: 5px;
+    margin: auto;
+    background: rgb(241, 235, 235);
+}
+#anterior{
+    height: 10px;
+    color: gray;
+    text-align: end;
+    font-size: 15pt;
+    margin-top: 20px;
+}
+#tela{
+    height: 50px;
+    font-size: 20pt;
+    color: rgb(0, 0, 0);
+    text-align: end;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-block-end: 10px;
+    overflow-wrap: break-word;
+}
+#btns{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2px;
+}
+button{
+    border: 0pt solid;
+    height: 50px;
+    font-size: 15pt;
+    cursor: pointer;
+}
+.numeros{
+    background: rgb(168, 161, 161);
+}
+.sinais{
+    background: rgb(0, 0, 0);
+    color: white;
+}
+#divisao{
+    border-end-end-radius: 15px;
+}
+#fatori{
+    border-end-start-radius: 15px;
+}
+.delete{
+    background: rgb(222, 94, 9);
+    color: white;
+}
+#igual{
+    height: 70px;
+    grid-column: 3 span;
+    background: rgb(34, 182, 235);
+    color: white;
+}
+.delete{
+    height: 70px;
+}
